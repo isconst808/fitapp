@@ -1,0 +1,9 @@
+.main {
+    background-color: $mainBg;
+    z-index: 1;
+    padding: 0;
+}
+
+@import 'parallax';
+@import 'header';
+@import 'home';

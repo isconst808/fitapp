@@ -1,0 +1,38 @@
+// header style
+.header {
+	padding: 3.2rem 0 7.7rem;
+	@media screen and (max-width: $smDesktopWidth) {
+		padding: 3.2rem 0 3.2rem;
+	}
+}
+
+.logo {
+	@media screen and (max-width: $smDesktopWidth) {
+		text-align: center;
+	}
+}
+
+.menu {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	a {
+		font-family: "Roboto";
+		color: $menu;
+		font-size: 1.8rem;
+		font-weight: 300;
+		line-height: 1.667;
+		text-decoration: none;
+	}
+	@media screen and (max-width: $smDesktopWidth) {
+		margin: 3rem 0;
+		justify-content: space-around;
+	}
+}
+
+.main-btn-block {
+	text-align: end;
+	@media screen and (max-width: $smDesktopWidth) {
+		text-align: center;
+	}
+}

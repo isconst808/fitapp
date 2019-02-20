@@ -1,0 +1,15 @@
+.management {
+    min-height: 900px;
+    padding: 14.5rem 0;
+    @media screen and (max-width: $smDesktopWidth) {
+		padding: 9rem 0 9rem;
+		min-height: 0;
+	}
+    .flexbox {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+@import "meal-time";

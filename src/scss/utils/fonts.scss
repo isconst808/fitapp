@@ -1,0 +1,67 @@
+$icomoon-font-family: "iconFont" !default;
+$icomoon-font-path: "../fonts" !default;
+
+$icon-days: "\e901";
+$icon-growth: "\e902";
+$icon-interface: "\e903";
+$icon-sound: "\e904";
+$icon-app: "\e900";
+$icon-heart: "\e905";
+
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?alablr');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?alablr#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?alablr') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?alablr') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?alablr##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-days {
+  &:before {
+    content: $icon-days; 
+  }
+}
+.icon-growth {
+  &:before {
+    content: $icon-growth; 
+  }
+}
+.icon-interface {
+  &:before {
+    content: $icon-interface; 
+  }
+}
+.icon-sound {
+  &:before {
+    content: $icon-sound; 
+  }
+}
+.icon-app {
+  &:before {
+    content: $icon-app; 
+  }
+}
+.icon-heart {
+  &:before {
+    content: $icon-heart; 
+  }
+}
+

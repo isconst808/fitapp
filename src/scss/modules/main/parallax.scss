@@ -1,0 +1,40 @@
+.main {
+	.parallax {
+		.apple {
+			top: 260px;
+			left: -6%;
+			filter: blur(12px);
+			img {
+				transform: scale(-1, 1);
+			}
+			&-min {
+				top: 556px;
+				left: 73.8%;
+				filter: blur(8px);
+				img {
+					transform: scale(-.3, .3) rotate(14deg);
+				}
+			}
+		}
+		.banana {
+			top: 13px;
+			left: 36.4%;
+			filter: blur(6px);
+			img {
+				transform: scale(0.6, 0.6) rotate(-34deg);
+			}
+			
+		}
+		.strawberry {
+			top: 776px;
+			left: 45.6%;
+			filter: blur(4px);
+	
+		}
+		.tomato {
+			top: 252px;
+			left: 86.3%;
+			filter: blur(6px);
+		}
+	}
+}

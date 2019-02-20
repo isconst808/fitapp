@@ -1,0 +1,23 @@
+.main-btn {
+	width: 14.2rem;
+	height: 4.2rem;
+	background-color: $btnBg;
+	border: none;
+	border-radius: 21px;
+	color:  $mainBg;
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 0.9;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: all .2s;
+	outline: none;
+	&-footer {
+		width: 24.7rem;
+	}
+	&:hover {
+		border: 2px solid $btnBg;
+		color: $btnBg;
+		background-color: $mainBg;
+	}
+}

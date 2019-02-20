@@ -1,0 +1,30 @@
+.simple-way {
+	.parallax {
+		.pepper {
+			top: 322px;
+			left: 12%;
+			filter: blur(6px);
+		}
+		.apple {
+			top: 553px;
+			left: 20.5%;
+			filter: blur(12px);
+			img {
+				transform: scale(-.76,.76);
+			}
+		}
+		.banana {
+			top: 477px;
+			left: 66.4%;		
+			filter: blur(6px);
+		}
+		.strawberry {
+			top: 335px;
+			left: 79.3%;
+			filter: blur(4px);
+			img {
+				transform: scale(.67,.67) rotate(-10deg);
+			}
+		}
+	}
+}

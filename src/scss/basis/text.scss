@@ -1,0 +1,45 @@
+.text-block {
+	h1, h2 {
+		font-weight: 300;
+		margin: 0;
+	}
+	p {
+		color:  $mainText;
+		line-height: 1.779;
+	}
+	h1 {
+	font-size: 6.4rem;
+	color: $headerText;
+		span {
+			font-weight: 700;
+		}
+		& + p {
+			color:  $headerText;
+		}
+	}
+	h2 {
+		color:  $mainText;
+		font-size: 4.8rem;
+		span {
+			color:  $mainBg;
+		}
+	}
+	&.center {
+		text-align: center;
+	}
+	&.light {
+		h2 {
+			color: $footerText;
+			span {
+				color: $footerText;
+				font-weight: 700;
+			}
+		}
+		p {
+			color: $footerText;
+		}
+	}
+	@media screen and (max-width: $smDesktopWidth) {
+		text-align: center;
+	}
+}

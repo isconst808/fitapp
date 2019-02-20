@@ -1,0 +1,41 @@
+.footer {
+	.parallax {
+		.tomato {
+			top: -16px;
+			left: -2.9%;
+			filter: blur(6px);
+			img {
+				transform: scale(-1.1, 1.1);
+			}
+		}
+		.pepper {
+			top: -10px;
+			left: 14.5%;
+			filter: blur(6px);
+			img {
+				transform: rotate(77deg) scale(.9, .9);
+			}
+		}
+		.strawberry {
+			top: 225px;
+			left: 21.7%;
+			filter: blur(4px);
+			img {
+				transform: rotate(56deg) scale(.7, .7);
+			}
+		}
+		.banana {
+			top: -148px;
+			left: 75.7%;
+			filter: blur(6px);
+			img {
+				transform: scale(-.6, .6) rotate(-35deg);
+			}	
+		}
+		.apple {
+			top: 113px;
+			left: 89.7%;
+			filter: blur(12px);
+		}
+	}
+}
